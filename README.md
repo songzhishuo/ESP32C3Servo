@@ -1,2 +1,3 @@
 # ESP32C3Servo
 Servo library supporting esp32c3
+测试发现Arduino环境下使用默认的Servo库不支持esp32c3， 原因是c3 的ledc通道配置方式和通道数和esp不同，修改了官方的Servo库使得esp32c3 可以支持最大4路舵机控制
